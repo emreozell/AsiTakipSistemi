@@ -83,13 +83,13 @@
                     android:id="@+id/editTextTc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:hint="12345678900"
-                    android:gravity="center"
                     android:layout_marginTop="25dp"
                     android:layout_marginRight="15dp"
-                    />
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="12345678999"
+                    android:inputType="textPersonName" />
+
                 <EditText
                     android:id="@+id/editTextAd"
                     android:layout_width="match_parent"
