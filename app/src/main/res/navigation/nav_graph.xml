@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/choiceFragment">
+
+    <fragment
+        android:id="@+id/choiceFragment"
+        android:name="com.mte.asitakipsistemi.view.ChoiceFragment"
+        android:label="fragment_choice"
+        tools:layout="@layout/fragment_choice" >
+        <action
+            android:id="@+id/action_choiceFragment_to_arrangeAppointmentFragment"
+            app:destination="@id/arrangeAppointmentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/arrangeAppointmentFragment"
+        android:name="com.mte.asitakipsistemi.view.ArrangeAppointmentFragment"
+        android:label="fragment_arrange_appointment"
+        tools:layout="@layout/fragment_arrange_appointment" />
+</navigation>

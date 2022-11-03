@@ -4,10 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/talha/Documents/GitHub/AsiTakipSistemi/app/src/main/res/drawable/ic_baseline_control_point_24.xml" value="0.2265" />
+        <entry key="..\:/Users/talha/Documents/GitHub/AsiTakipSistemi/app/src/main/res/layout/activity_appointment.xml" value="0.21105072463768115" />
         <entry key="..\:/Users/talha/Documents/GitHub/AsiTakipSistemi/app/src/main/res/layout/activity_login.xml" value="0.21105072463768115" />
         <entry key="..\:/Users/talha/Documents/GitHub/AsiTakipSistemi/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/talha/Documents/GitHub/AsiTakipSistemi/app/src/main/res/layout/fragment_account.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/talha/Documents/GitHub/AsiTakipSistemi/app/src/main/res/layout/fragment_arrange_appointment.xml" value="0.21105072463768115" />
+        <entry key="..\:/Users/talha/Documents/GitHub/AsiTakipSistemi/app/src/main/res/layout/fragment_choice.xml" value="0.1" />
         <entry key="..\:/Users/talha/Documents/GitHub/AsiTakipSistemi/app/src/main/res/layout/fragment_home.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/talha/Documents/GitHub/AsiTakipSistemi/app/src/main/res/layout/fragment_vac_choice.xml" value="0.21105072463768115" />
         <entry key="..\:/Users/talha/Documents/GitHub/AsiTakipSistemi/app/src/main/res/layout/fragment_vaccines.xml" value="0.2223731884057971" />
         <entry key="..\:/Users/talha/Documents/GitHub/AsiTakipSistemi/app/src/main/res/menu/bottom_nav.xml" value="0.25416666666666665" />
       </map>
