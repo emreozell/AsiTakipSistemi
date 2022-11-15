@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "148985761584",
+    "project_id": "asiuygulama",
+    "storage_bucket": "asiuygulama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148985761584:android:342a3f888768103c1e02f5",
+        "android_client_info": {
+          "package_name": "com.mte.asitakipsistemi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148985761584-q6cudu98at8hstgmaqhufnjbm5vvfmnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAcGhwzzU26ufN-iVC1C1sykY0PBy3Ng4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148985761584-q6cudu98at8hstgmaqhufnjbm5vvfmnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
