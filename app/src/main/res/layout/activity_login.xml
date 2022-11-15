@@ -7,44 +7,56 @@
     tools:context=".view.LoginActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/email"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="98dp"
-        android:layout_marginEnd="57dp"
-        android:layout_marginBottom="23dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="20dp"
         android:ems="10"
+        android:hint="E-mailinizi Giriniz "
         android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintBottom_toTopOf="@+id/sifre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/sifre"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="55dp"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="46dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="54dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:inputType="textPassword"
+        android:hint="Şifrenizi Giriniz"
+        app:layout_constraintBottom_toTopOf="@+id/girisyap"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="146dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="212dp"
-        android:text="Button"
+        android:id="@+id/girisyap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="253dp"
+        android:text="Giriş Yap"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kayitol"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/sifre" />
+
+    <Button
+        android:id="@+id/kayitol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Kayıt Ol"
+        app:layout_constraintBaseline_toBaselineOf="@+id/girisyap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/girisyap" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
