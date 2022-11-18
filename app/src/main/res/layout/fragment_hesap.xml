@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.AccountFragment">
+    tools:context=".view.HesapFragment"
+     >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,18 +44,11 @@
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ad:"
+                    android:text="İsim:"
                     android:gravity="center"
                     android:layout_marginTop="30dp"
                     android:textSize="25dp"/>
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Soy Ad:"
-                    android:gravity="center"
-                    android:layout_marginTop="30dp"
-                    android:textSize="25dp"/>
+
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
@@ -86,6 +80,7 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginRight="15dp"
                     android:ems="10"
+                    android:enabled="false"
                     android:gravity="center"
                     android:hint="12345678999"
                     android:inputType="textPersonName" />
@@ -97,21 +92,12 @@
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:hint="Talha"
+                    android:enabled="false"
                     android:gravity="center"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="15dp"
                     />
-                <EditText
-                    android:id="@+id/editTextSoyad"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:hint="Ergün"
-                    android:gravity="center"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginRight="15dp"
-                    />
+
                 <EditText
                     android:id="@+id/editTextEposta"
                     android:layout_width="match_parent"
@@ -144,6 +130,14 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:text="GÜNCELLE" />
+
+        <Button
+            android:id="@+id/cikisYap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Çıkış Yap" />
 
     </LinearLayout>
 

@@ -74,7 +74,7 @@ class RegisterActivity : AppCompatActivity() {
                         currentUserDb?.child("uyetelefon")?.setValue(binding.uyetelefon.text.toString())
                         Toast.makeText(this,"Kayıt Başarılı",Toast.LENGTH_LONG).show()
 
-
+                        auth.signOut()
                     }else{
                         Toast.makeText(this,"Kayıt Hatalı ",Toast.LENGTH_LONG).show()
                     }

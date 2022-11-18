@@ -20,7 +20,7 @@ class LoginActivity : AppCompatActivity() {
         auth=FirebaseAuth.getInstance()
         // kullanıcı girip yaptığını kontrol ediyorum
         var currentUser=auth.currentUser
-        /* if (currentUser!=null){
+        /*if (currentUser!=null){
 
              startActivity(Intent(this,MainActivity::class.java))
              finish()
